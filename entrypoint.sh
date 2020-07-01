@@ -1,4 +1,4 @@
 #!/bin/sh
-Xvfb $DISPLAY &
+Xvfb $DISPLAY 
 
-/opt/Archi/Archi -application com.archimatetool.commandline.app -consoleLog -nosplash $@
+# /opt/Archi/Archi -application com.archimatetool.commandline.app -consoleLog -nosplash $@
